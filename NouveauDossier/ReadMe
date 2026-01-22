@@ -2,9 +2,12 @@
 
 Exercices 1:
 - Code inchangé, j'ai passé beaucoup de temps à comprendre le code et à me renseigner sur d'autres applications d'appel API comme un keyloader. 
-- Calc. exe : erreur 0xc0000005 memory allocation?
-- J'ai d'abord essayé de générer un Payload TCP Bind avec MSFVENOM mais je n'ai jamais réussi à ouvrir le port voulu (8000) pour pouvoir écouter toutes les IP. Erreur 0xc000001d
+- J'ai d'abord essayé de générer un Payload TCP Bind avec MSFVENOM mais je n'ai jamais réussi à ouvrir le port voulu (8000) pour pouvoir écouter toutes les IP. 
+    Erreur 0xc000001d --> Changer payload vers 64 bits
+    erreur 0xc0000005 memory allocation?
 - Je me suis donc rabattu sur un simple MESSAGEBOX
+
+Exercice 1B: Rien à ajouter
 
 Exercices 2: 
 
@@ -13,4 +16,4 @@ Exercices 2:
 
 
 Conclusion:
-- Je pense qu'il serait intéressant de demander un nouveau produit plutôt que de reproduire ce qui a été fait.
+- Je pense qu'il serait intéressant de demander un nouveau produit plutôt que de reproduire ce qui a été fait, un keylogger par exemple ?
