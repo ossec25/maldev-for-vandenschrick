@@ -3,7 +3,7 @@
 Exercices 1:
 - Code inchangé, j'ai passé beaucoup de temps à comprendre le code et à me renseigner sur d'autres applications d'appel API comme un keyloader. 
 - Calc. exe : erreur 0xc0000005 memory allocation?
-- J'ai d'abord essayé de générer un Payload TCP Bind avec MSFVENOM mais je n'ai jamais réussi à ouvrir le port voulu (8000) pour pouvoir écouter toutes les IP. 
+- J'ai d'abord essayé de générer un Payload TCP Bind avec MSFVENOM mais je n'ai jamais réussi à ouvrir le port voulu (8000) pour pouvoir écouter toutes les IP. Erreur 0xc000001d
 - Je me suis donc rabattu sur un simple MESSAGEBOX
 
 Exercices 2: 
